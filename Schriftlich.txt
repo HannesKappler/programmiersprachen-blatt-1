@@ -17,7 +17,7 @@ Aufgabe 1.3
       double
       long double
   
-  _____________________________________________________________________________________________________________________________________
+  _____________________________________________________________________________________________________________________________
   int main(){                               //Integer ist der Typ des Rückgabewertes
     int         a   = 9;                   //Variable a, mit Typ Integer(Ganzzahlen), wird mit der Zahl 9 definiert.
     bool        b   = false;              //Variable b ist eine Variable mit dem Wahrheitswert false.
@@ -30,7 +30,7 @@ Aufgabe 1.3
     return 0;                   
   }
   
-  ____________________________________________________________________________________________________________________________________
+  _____________________________________________________________________________________________________________________________
   Eine Typenkonvertierung kann man, in diesem Fall, in Zeile 28 erkennen. Hier möchte der Programmierer einen Double Typ auf einen
   Integer Typ übertragen. Also di 1,3 auf einen Integer Typ.In dieser Folge ist es nicht empfehlenswert, da Werte verloren gehen. 
   Wenn man eine Ganzzahl auf eine Gleitpunktzahl überträgt gehen keine Werte verloren.
@@ -63,3 +63,16 @@ Aufgabe 1.5
     Bsp.: class def;
           char c;
           int dek(int);
+
+
+
+Aufgabe 1.6
+  Eine Funktionssignatur ist folgender Maßen aufgebaut.
+  
+  int                 name                (int, double);
+  Typ der Funktion    Name der Funktion   Typ der Argumente
+  _____________________________________________________________________________________________________________________________
+  var   -->   Überall (square())
+  i     -->   for-Schleife im main().
+  a,b   -->   sum()
+  
