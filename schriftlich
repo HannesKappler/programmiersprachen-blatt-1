@@ -1,0 +1,35 @@
+Datentypen:
+  für Wahrheitswerte: 
+    bool
+  
+  für Zeichen:
+    char
+    wchar_t
+  
+  für Ganzzahlen:
+    short
+    int
+    long
+  
+  für Gleitpunktzahlen:
+    float
+    double
+    long double
+  
+______________________________________________________________________________________________________________________________________________________________________________________________________________  
+int main(){                               //Integer ist der Typ des Rückgabewertes
+  int         a   = 9;                   //Variable a, mit Typ Integer(Ganzzahlen), wird mit der Zahl 9 definiert.
+  bool        b   = false;              //Variable b ist eine Variable mit dem Wahrheitswert false.
+  char        c   = 'a';               //Es wird die Variable c erstellt mit dem Wert/Zeichen a.
+  double      d   = 1.3;              //Double ist ein Typ für Gleitkommazahlen. In diesem Fall wird die Variable d mit 1,3 definiert.
+  int const   two = 2;               //Eine KONSTANTE Variable (const), welche nicht verändert werden kann. Variable two (Ganzzahlen) wird mit dem Wert 2 definiert.
+  double      e   = a/two;          //Die Variable e ist eine Gleitpunktzahl. Sie wird gebildet durch die Division durch der Variable a und two.
+  
+  two = d;                        //Hier wird versucht den Wert der Variable two zu ändern. Dies hat aber kein Erfolg, da two eine Konstante ist und nicht verändert werden kann. 
+  
+  return 0;                   
+}
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+Eine Typenkonvertierung kann man, in diesem Fall, in Zeile 28 erkennen. Hier möchte der Programmierer einen Double Typ auf einen Integer Typ übertragen. Also di 1,3 auf einen Integer Typ.
+In dieser Folge ist es nicht empfehlenswert, da Werte verloren gehen. Wenn man eine Ganzzahl auf eine Gleitpunktzahl überträgt gehen keine Werte verloren.
