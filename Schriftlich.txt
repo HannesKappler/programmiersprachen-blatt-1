@@ -24,9 +24,9 @@ Aufgabe 1.3
     char        c   = 'a';               //Es wird die Variable c erstellt mit dem Wert/Zeichen a.
     double      d   = 1.3;              //Double ist ein Typ für Gleitkommazahlen. In diesem Fall wird die Variable d mit 1,3 definiert
     
-    int const   two = 2;              //Eine KONSTANTE Variable (const), welche nicht verändert werden kann. Variable two (Ganzzahlen)                                   wird mit dem Wert 2 definiert.
-    double      e   = a/two;        //Die Variable e ist eine Gleitpunktzahl. Sie wird gebildet durch die Division durch der Variable                                  und two.
-    two = d;                      //Hier wird versucht den Wert der Variable two zu ändern. Dies hat aber kein Erfolg, da two eine                                   Konstante ist und nicht verändert werden kann. 
+    int const   two = 2;              //Eine KONSTANTE Variable (const), welche nicht verändert werden kann. Variable two (Ganzzahlen) wird mit dem Wert 2 definiert.
+    double      e   = a/two;        //Die Variable e ist eine Gleitpunktzahl. Sie wird gebildet durch die Division durch der Variable und two.
+    two = d;                      //Hier wird versucht den Wert der Variable two zu ändern. Dies hat aber kein Erfolg, da two eine Konstante ist und nicht verändert werden kann. 
     return 0;                   
   }
   
