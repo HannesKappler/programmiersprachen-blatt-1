@@ -41,18 +41,25 @@ Aufgabe 1.4
   Zuweisung
     Wenn man einer Variable einen neuen Wert gibt, nennt man das Zuweisung. Der Unterschied zur Initialisierung ist, dass es eine Initialisierung nur einmal gibt und man eine Zuweisung mehrmals geben kann, bzw. gar nicht.
     
-    Bsp: two = d
+    Bsp.: two = d
   
   Initialisierung
-    Wenn eine Variable neu angelegt wird und dieser einen Wert zugeordnet wird, nennt man es Initialisierung.
+    Wenn eine Variable neu angelegt wird und dieser einen Wert zugeordnet wird, nennt man es Initialisierung. Damit verhindert man, dass das Programm mit einem Zufallswert arbeitet.
     
-    Bsp: int a = 9
+    Bsp.: int a = 9
 
 
 
 Aufgabe 1.5
   Deklaration
+    Wenn ein Objekt, eine Variable, Funktion oder Klasse benannt wird, ist das eine Deklaration. Nachdem wir ein Element deklariert haben, haben wir es dem Compiler bekannt gegeben. Dieser ist nun auf ein Element "vorbereitet".
     
+    Bsp.: 
+          
     
   Definition
-    Ist eine eindeutige Spezifikation eines Objektes.  
+    Bei einer Definition wird der Variable einen Speicherplatz zugeteilt. Daher wird bei der Definition der Datentyp festgelegt. 
+    
+    Bsp.: class def;
+          char c;
+          int dek(int);
