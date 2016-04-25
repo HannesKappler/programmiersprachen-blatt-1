@@ -76,3 +76,36 @@ Aufgabe 1.6
   i     -->   for-Schleife im main().
   a,b   -->   sum()
   
+  
+  
+Aufgabe 1.13
+  C++                 Ist eine Programmierspraceh, welche 1979 von Bjarne Stroustrup als Erweiterung der Programmiersprache C entwickelt wurde.
+  Quellcode           Ein Quellcode ist eine für Menschen lesbare, in einer Programmiersprache geschriebenen Text.
+  Compiler            Ein Programm, das Quelltext einer bestimmten Programmiersprache in eine Form übersetzt, welche vom Computer ausgeführt werden kann.
+  Linker              Ein Programm, das einzelne Programmmodule zu einem ausführbaren Programm zusammenstellt.
+  Objektcode          Ein Zwischenergebnis eines Compilers von einem Computerprogramm.
+  Ausführbare Datei   Eine Datei, die als Computerprogramm ausgeführt werden kann.
+  main()              Ist das Hauptprogramm in der Programmiersprache C/C++. 
+  #include            Die Direktive fügt andere, benannte Datein in das Quellprogramm ein.
+  Kommentare          Kommentare werden vom Compiler überlesen und sind für den erzeugten Programmcode ohne Bedeutung.
+  Header              Werden mittels Include-Direktive eingefügt. Der Inhalt von Header-Datein sind: Vereinbarung von Makros, Beschreibung der Aufrufschnittstelle, Deklarartion von nachnutzbaren Datentypen und evtl. Deklarartion von globalen Variablen.
+  Programm            Eine genügende Folge von Anweisungen, um bestimmte Aufgaben oder Probleme mithilfe des Computers zu lösen. Es wird in einer bestimmten Programmiersprache geschrieben.
+  Ausgabe             Eine vom Programm ausgegebene Nachricht.
+  std::cout           Eine Standardausgabe.
+  std::cin            Eine Standardeingabe, welche die Tastatur nach einer Eingabe abfragt und in eine z.b. Variable schreibt.
+  <<                  Mit dem Ausgabeoperator ist es möglich beliebig viele Teile der Ausgabe aneinanderzuhängen.
+  >>                  Mit dem Eingabeoperator wird nach der Eingabe ein Wert auf eine Variable geschrieben.
+  Funktion            Eine Funktion ist eine Zusammenfassung von mehreren Anweisungen unter einem bestimmten Namen.
+  Funktionssignatur   Ist die formale Schnitstelle einer Funktion oder Prozedur. Sie besteht aus dem Typ der Funktion, dem namen und den Typen der Argumenten.
+  Deklaration         Wir benennen eine Variable oder Funktion und machen diese dem Compiler bekannt.
+  Definition          Bei der Definition teilt man der Variable oder Fuktion Speicherplatz zu.
+  Typ                 Eine Zusammenfassung von Objektmengen mit den darauf definierten Operationen.
+  Typkonvertierung    Die Umwandlung eines Datentyps in einen anderen.
+  Variable            Ein abstrakter Behälter für eine Größe, welche im Verlauf eines Rechenprozesses auftritt.
+  Name                Ein verbaler Zugriffindex, welcher erlaubt Variablen, Funktionen, Klassen, etc. zu benennen und im Verlauf des Codes zu verwenden.
+  Wert                Ein Zustand, welche man den Variablen zuweisen kann, damit sie dadurch einen Wert bekommen.
+  Initialisierung     Zuweisung eines Anfangswertes zu einem Objekt oder einer Variable
+  Zuweisung           Eine Anweisung, durch den eine Variable einen neuen Wert erhält.
+  const               Der Wert der derart deklarierten Variable kann nicht durch direkte Zuweisung verändert werden.
+  Gültigkeitsbereich  Bereich, in dem eine Variable vom Programm verwendet werden kann.
+  
