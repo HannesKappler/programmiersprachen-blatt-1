@@ -111,19 +111,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-source/CMakeFiles/helloworld.dir/rule:
-	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/helloworld.dir/rule
-.PHONY : source/CMakeFiles/helloworld.dir/rule
+source/CMakeFiles/mileToKilometer.dir/rule:
+	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/mileToKilometer.dir/rule
+.PHONY : source/CMakeFiles/mileToKilometer.dir/rule
 
 # Convenience name for target.
-helloworld: source/CMakeFiles/helloworld.dir/rule
+mileToKilometer: source/CMakeFiles/mileToKilometer.dir/rule
 
-.PHONY : helloworld
+.PHONY : mileToKilometer
 
 # fast build rule for target.
-helloworld/fast:
-	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/build
-.PHONY : helloworld/fast
+mileToKilometer/fast:
+	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/build
+.PHONY : mileToKilometer/fast
+
+# Convenience name for target.
+source/CMakeFiles/sumMultiples.dir/rule:
+	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/sumMultiples.dir/rule
+.PHONY : source/CMakeFiles/sumMultiples.dir/rule
+
+# Convenience name for target.
+sumMultiples: source/CMakeFiles/sumMultiples.dir/rule
+
+.PHONY : sumMultiples
+
+# fast build rule for target.
+sumMultiples/fast:
+	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/sumMultiples.dir/build.make source/CMakeFiles/sumMultiples.dir/build
+.PHONY : sumMultiples/fast
 
 # Convenience name for target.
 source/CMakeFiles/tests.dir/rule:
@@ -140,32 +155,59 @@ tests/fast:
 	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
-helloworld.o: helloworld.cpp.o
+mileToKilometer.o: mileToKilometer.cpp.o
 
-.PHONY : helloworld.o
+.PHONY : mileToKilometer.o
 
 # target to build an object file
-helloworld.cpp.o:
-	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/helloworld.cpp.o
-.PHONY : helloworld.cpp.o
+mileToKilometer.cpp.o:
+	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.o
+.PHONY : mileToKilometer.cpp.o
 
-helloworld.i: helloworld.cpp.i
+mileToKilometer.i: mileToKilometer.cpp.i
 
-.PHONY : helloworld.i
+.PHONY : mileToKilometer.i
 
 # target to preprocess a source file
-helloworld.cpp.i:
-	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/helloworld.cpp.i
-.PHONY : helloworld.cpp.i
+mileToKilometer.cpp.i:
+	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.i
+.PHONY : mileToKilometer.cpp.i
 
-helloworld.s: helloworld.cpp.s
+mileToKilometer.s: mileToKilometer.cpp.s
 
-.PHONY : helloworld.s
+.PHONY : mileToKilometer.s
 
 # target to generate assembly for a file
-helloworld.cpp.s:
-	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/helloworld.cpp.s
-.PHONY : helloworld.cpp.s
+mileToKilometer.cpp.s:
+	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.s
+.PHONY : mileToKilometer.cpp.s
+
+sumMultiples.o: sumMultiples.cpp.o
+
+.PHONY : sumMultiples.o
+
+# target to build an object file
+sumMultiples.cpp.o:
+	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/sumMultiples.dir/build.make source/CMakeFiles/sumMultiples.dir/sumMultiples.cpp.o
+.PHONY : sumMultiples.cpp.o
+
+sumMultiples.i: sumMultiples.cpp.i
+
+.PHONY : sumMultiples.i
+
+# target to preprocess a source file
+sumMultiples.cpp.i:
+	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/sumMultiples.dir/build.make source/CMakeFiles/sumMultiples.dir/sumMultiples.cpp.i
+.PHONY : sumMultiples.cpp.i
+
+sumMultiples.s: sumMultiples.cpp.s
+
+.PHONY : sumMultiples.s
+
+# target to generate assembly for a file
+sumMultiples.cpp.s:
+	cd /home/supe4781/programmiersprachen-blatt-1/build && $(MAKE) -f source/CMakeFiles/sumMultiples.dir/build.make source/CMakeFiles/sumMultiples.dir/sumMultiples.cpp.s
+.PHONY : sumMultiples.cpp.s
 
 tests.o: tests.cpp.o
 
@@ -200,13 +242,17 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... sumMultiples"
 	@echo "... edit_cache"
-	@echo "... rebuild_cache"
 	@echo "... tests"
-	@echo "... helloworld"
-	@echo "... helloworld.o"
-	@echo "... helloworld.i"
-	@echo "... helloworld.s"
+	@echo "... rebuild_cache"
+	@echo "... mileToKilometer"
+	@echo "... mileToKilometer.o"
+	@echo "... mileToKilometer.i"
+	@echo "... mileToKilometer.s"
+	@echo "... sumMultiples.o"
+	@echo "... sumMultiples.i"
+	@echo "... sumMultiples.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"

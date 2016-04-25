@@ -1,5 +1,5 @@
 add_executable(sumMultiples sumMultiples.cpp)
-#target_link_libraries(sumMultiples my_fancy_library)
+#target_link_libraries(sumMultiples m)
 
 add_executable(tests tests.cpp)
 target_link_libraries(tests m)
