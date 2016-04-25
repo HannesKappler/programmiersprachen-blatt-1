@@ -20,6 +20,6 @@ main() {
 	sumMultiples();
 
 
-	std::cin >> w;
+	std::cin >> w; //auf Windows programmiert, Konsole soll sich nicht schließen
 	return 0;
 };
