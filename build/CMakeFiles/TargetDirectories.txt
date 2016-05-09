@@ -1,3 +1,2 @@
-/home/supe4781/programmiersprachen-blatt-1/build/source/CMakeFiles/mileToKilometer.dir
-/home/supe4781/programmiersprachen-blatt-1/build/source/CMakeFiles/tests.dir
-/home/supe4781/programmiersprachen-blatt-1/build/source/CMakeFiles/sumMultiples.dir
+/home/hannes/Dokumente/Cpp-Training/build/source/CMakeFiles/sumMultiples.dir
+/home/hannes/Dokumente/Cpp-Training/build/source/CMakeFiles/tests.dir
